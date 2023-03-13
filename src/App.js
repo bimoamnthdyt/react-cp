@@ -2,6 +2,8 @@ import React from "react";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import Experiences from "./components/Experiences";
+import Newslatter from "./components/Newslatter";
+import Card from "./components/Card";
 
 function App() {
   return (
@@ -9,6 +11,8 @@ function App() {
       <Navbar />
       <Hero />
       <Experiences />
+      <Newslatter />
+      <Card />
     </div>
   );
 }
