@@ -4,6 +4,7 @@ import Hero from "./components/Hero";
 import Experiences from "./components/Experiences";
 import Newslatter from "./components/Newslatter";
 import Card from "./components/Card";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Experiences />
       <Newslatter />
       <Card />
+      <Footer />
     </div>
   );
 }
